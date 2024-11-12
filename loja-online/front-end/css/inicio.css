@@ -1,0 +1,115 @@
+/* RESET BÁSICO */
+* {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Estilo do cabeçalho */
+header h1 {
+    padding: 30px 60px;
+    color: white;
+    background-color: #333;
+}
+
+header hr {
+    position: relative;
+    top: -29.9px;
+    height: 4px;
+    background-color: rgb(101, 101, 101);
+    border: none;
+}
+
+header input {
+    position: relative;
+    top: -150px;
+    left: 400px;
+    padding: 10px 0px 11px 11px;
+    width: 300px;
+    height: 30px;
+    border: 3px solid white;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+
+/* Estilo da barra de navegação */
+#botao ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+#botao li {
+    position: relative;
+}
+
+#botao a {
+    color: white;
+    padding: 10px 15px;
+    display: block;
+    text-align: center;
+}
+
+/* Menu dropdown */
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    min-width: 150px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transition: opacity 0.3s ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#botao li:hover .dropdown {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown li a {
+    padding: 10px 15px;
+    color: white;
+    display: block;
+    white-space: nowrap;
+}
+
+.dropdown li a:hover {
+    background-color: #555;
+}
+
+/* Estilo da vitrine de produtos */
+main .vitrine {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    flex-wrap: wrap; /* Permite que os itens se ajustem em várias linhas */
+}
+
+main .produto1 {
+    background-color: rgb(237, 237, 237);
+    width: 200px;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+main img{
+    width: 200px;
+    height: 200px;
+}

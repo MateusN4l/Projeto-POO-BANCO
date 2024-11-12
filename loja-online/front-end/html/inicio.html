@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/front-end/css/inicio.css">
+    <title>Início</title>
+</head>
+<body>
+    <!-- CABEÇA -->
+    <header>
+        <h1><a>name <br> & <br>name</a></h1>
+        <div id="botao">
+            <ul>
+                <li><a href="#">Contato</a></li>
+                <li>
+                    <a href="#" class="conta">Conta</a>
+                    <ul class="dropdown">
+                        <li><a href="/front-end/html/criar.html">Criar conta</a></li>
+                        <li><a href="/front-end/html/login.html">Iniciar sessão</a></li>
+                    </ul>
+                </li>
+                <li><a href="/front-end/html/carrinho.html">Carrinho</a></li>
+            </ul>
+        </div>
+        <input type="text" id="barra-pesquisa" placeholder="O que você está buscando" oninput="filterItems()">
+        <hr>
+    </header>
+
+    <main>
+        <section class="vitrine">
+            <div class="item" data-nome="Produto 1">
+                <img src="/front-end/img/camisa1.jpg" alt="Produto 1">
+                <h3>Produto 1</h3>
+                <p class="preco">R$ 60,00</p>
+                <button>Adicionar ao Carrinho</button>
+            </div>
+            <div class="item" data-nome="Produto 2">
+                <img src="/front-end/img/camisa-sport-1.jpg" alt="Produto 2">
+                <h3>Produto 2</h3>
+                <p class="preco">R$ 300,00</p>
+                <button>Adicionar ao Carrinho</button>
+            </div>
+            <div class="item" data-nome="Produto 3">
+                <img src="/front-end/img/camisa-sport-2.jpg" alt="Produto 3">
+                <h3>Produto 3</h3>
+                <p class="preco">R$ 279,99</p>
+                <button>Adicionar ao Carrinho</button>
+            </div>
+            <div class="item" data-nome="Produto 4">
+                <img src="/front-end/img/camisa-vasco-1.jpg" alt="Produto 4">
+                <h3>Produto 4</h3>
+                <p class="preco">R$ 120,99</p>
+                <button>Adicionar ao Carrinho</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Foot&Style</p>
+    </footer>
+<script src="/front-end/js/inicio.js"></script>
+
+</body>
+</html>
