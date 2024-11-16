@@ -47,3 +47,26 @@ button{
     width: 400px;
     height: 430px;
 }
+@media (max-width: 450px){
+    .cadastro{
+        width: 75%;
+        height: auto;
+        padding: 20px;
+        left: 35px;
+        top: 60px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    p{
+        font-size: 21px;
+    }
+    label{
+        font-size: 17px;
+    }
+    button{
+        top: 10px;
+        font-size: 18px;
+    }
+  
+}
